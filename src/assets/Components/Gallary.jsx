@@ -1,86 +1,112 @@
 import { motion } from "framer-motion";
 import { fromRight } from "./About";
-/** all work **/
+// Imports لكل الصور والفيديوهات
+// workUgc
+import b1Image from "../data/UGC/brand1/b1.jpg";
+import b1Video from "../data/UGC/brand1/b1.mp4";
+import b2Image from "../data/UGC/brand2/b2.jpg";
+import b2Video from "../data/UGC/brand2/b2.mp4";
+import b3Image from "../data/UGC/brand3/b3.jpg";
+import b3Video1 from "../data/UGC/brand3/b3.1.mp4";
+import b3Video2 from "../data/UGC/brand3/b3.2.mp4";
+import b3Video3 from "../data/UGC/brand3/b3.3.mp4";
+import b4Image from "../data/UGC/brand4/b4.jpg";
+import b4Video1 from "../data/UGC/brand4/b4.1.mp4";
+import b4Video2 from "../data/UGC/brand4/b4.2.mp4";
+import b5Image from "../data/UGC/brand5/b5.jpg";
+import b5Video from "../data/UGC/brand5/b5.mp4";
+import b6Image from "../data/UGC/brand6/b6.jpg";
+import b6Video from "../data/UGC/brand6/b6.mp4";
+import b7Image from "../data/UGC/brand7/b7.jpg";
+import b7Video from "../data/UGC/brand7/b7.mp4";
+import b8Image from "../data/UGC/brand8/b8.jpg";
+import b8Video1 from "../data/UGC/brand8/b8.1.mp4";
+import b8Video2 from "../data/UGC/brand8/b8.2.mp4";
+import b8Video3 from "../data/UGC/brand8/b8.3.mp4";
+import b8Video4 from "../data/UGC/brand8/b8.4.mp4";
+import b8Video5 from "../data/UGC/brand8/b8.5.mp4";
+
+// workAdv
+import adv1Image from "../data/Adver_/Adv1/brand.png";
+import adv1Video from "../data/Adver_/Adv1/A1.mp4";
+import adv2Image from "../data/Adver_/Adv2/brand.png";
+import adv2Video from "../data/Adver_/Adv2/A1.mp4";
+
+// workPosters
+import poster1Image from "../data/posters/poster1/brand.png";
+import poster1Poster from "../data/posters/poster1/p1.png";
+import poster2Image from "../data/posters/poster2/brand.png";
+import poster2Poster from "../data/posters/poster2/p1.png";
+
+// الـ Arrays المنظمة
 const workUgc = [
   {
-    brand: "/src/assets/data/UGC/brand1/b1.jpg",
+    brand: b1Image,
     brandname: "Gorilla",
-    videos: ["/src/assets/data/UGC/brand1/b1.mp4"],
+    videos: [b1Video],
   },
   {
-    brand: "/src/assets/data/UGC/brand2/b2.jpg",
+    brand: b2Image,
     brandname: "fox",
-    videos: ["/src/assets/data/UGC/brand2/b2.mp4"],
+    videos: [b2Video],
   },
   {
-    brand: "/src/assets/data/UGC/brand3/b3.jpg",
+    brand: b3Image,
     brandname: "qu-pe",
-    videos: [
-      "/src/assets/data/UGC/brand3/b3.1.mp4",
-      "/src/assets/data/UGC/brand3/b3.2.mp4",
-      "/src/assets/data/UGC/brand3/b3.3.mp4",
-    ],
+    videos: [b3Video1, b3Video2, b3Video3],
   },
   {
-    brand: "/src/assets/data/UGC/brand4/b4.jpg",
+    brand: b4Image,
     brandname: "trix",
-    videos: [
-      "/src/assets/data/UGC/brand4/b4.1.mp4",
-      "/src/assets/data/UGC/brand4/b4.2.mp4",
-    ],
+    videos: [b4Video1, b4Video2],
   },
   {
-    brand: "/src/assets/data/UGC/brand5/b5.jpg",
+    brand: b5Image,
     brandname: "xaui",
-    videos: ["/src/assets/data/UGC/brand5/b5.mp4"],
+    videos: [b5Video],
   },
   {
-    brand: "/src/assets/data/UGC/brand6/b6.jpg",
+    brand: b6Image,
     brandname: "beعly",
-    videos: ["/src/assets/data/UGC/brand6/b6.mp4"],
+    videos: [b6Video],
   },
   {
-    brand: "/src/assets/data/UGC/brand7/b7.jpg",
+    brand: b7Image,
     brandname: "Trauxit shop",
-    videos: ["/src/assets/data/UGC/brand7/b7.mp4"],
+    videos: [b7Video],
   },
   {
-    brand: "/src/assets/data/UGC/brand8/b8.jpg",
+    brand: b8Image,
     brandname: "House of cotton",
-    videos: [
-      "/src/assets/data/UGC/brand8/b8.1.mp4",
-      "/src/assets/data/UGC/brand8/b8.2.mp4",
-      "/src/assets/data/UGC/brand8/b8.3.mp4",
-      "/src/assets/data/UGC/brand8/b8.4.mp4",
-      "/src/assets/data/UGC/brand8/b8.5.mp4",
-    ],
-  },
-];
-const workAdv = [
-  {
-    brand: "/src/assets/data/Adver_/Adv1/brand.png",
-    brandname: "carrefour",
-    videos: ["/src/assets/data/Adver_/Adv1/A1.mp4"],
-  },
-  {
-    brand: "/src/assets/data/Adver_/Adv2/brand.png",
-    brandname: "mcdonald's",
-    videos: ["/src/assets/data/Adver_/Adv2/A1.mp4"],
-  },
-];
-const workPosters = [
-  {
-    brand: "/src/assets/data/posters/poster1/brand.png",
-    brandname: "mashreq",
-    poster: ["/src/assets/data/posters/poster1/p1.png"],
-  },
-  {
-    brand: "/src/assets/data/posters/poster2/brand.png",
-    brandname: "vodafone",
-    poster: ["/src/assets/data/posters/poster2/p1.png"],
+    videos: [b8Video1, b8Video2, b8Video3, b8Video4, b8Video5],
   },
 ];
 
+const workAdv = [
+  {
+    brand: adv1Image,
+    brandname: "carrefour",
+    videos: [adv1Video],
+  },
+  {
+    brand: adv2Image,
+    brandname: "mcdonald's",
+    videos: [adv2Video],
+  },
+];
+
+const workPosters = [
+  {
+    brand: poster1Image,
+    brandname: "mashreq",
+    poster: [poster1Poster],
+  },
+  {
+    brand: poster2Image,
+    brandname: "vodafone",
+    poster: [poster2Poster],
+  },
+];
 function Gallary() {
   return (
     <section className="Gallary" id="Gallary">
