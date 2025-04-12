@@ -211,8 +211,6 @@ function ProjectUnit({ vedio, brand, brandname }) {
         <video
           src={vedio}
           controls
-          autoPlay
-          loop
           muted
           playsinline
           webkit-playsinline
