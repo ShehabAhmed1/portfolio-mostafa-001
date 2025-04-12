@@ -203,7 +203,7 @@ function ProjectUnit({ vedio, brand, brandname }) {
   return (
     <motion.div
       className="unit"
-      variants={fromRight(0.5, 0.2)}
+      // variants={fromRight(0.5, 0.2)}
       initial="initial"
       whileInView="animate"
     >
@@ -223,7 +223,7 @@ function ProjectUnitPoster({ poster, brand, brandname }) {
   return (
     <motion.div
       className="unit"
-      variants={fromRight(0.5, 0.2)}
+      //variants={fromRight(0.5, 0.2)}
       initial="initial"
       whileInView="animate"
     >
