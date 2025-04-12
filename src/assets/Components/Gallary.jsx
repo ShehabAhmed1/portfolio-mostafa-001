@@ -203,12 +203,21 @@ function ProjectUnit({ vedio, brand, brandname }) {
   return (
     <motion.div
       className="unit"
-      // variants={fromRight(0.5, 0.2)}
+      variants={fromRight(0.5, 0.2)}
       initial="initial"
       whileInView="animate"
     >
       <div className="video">
-        <video src={vedio} controls autoPlay loop muted />
+        <video
+          src={vedio}
+          controls
+          autoPlay
+          loop
+          muted
+          playsinline
+          webkit-playsinline
+          preload="auto"
+        />
       </div>
       <div className="related-info">
         <img src={brand} alt="" />
@@ -223,7 +232,7 @@ function ProjectUnitPoster({ poster, brand, brandname }) {
   return (
     <motion.div
       className="unit"
-      //variants={fromRight(0.5, 0.2)}
+      variants={fromRight(0.5, 0.2)}
       initial="initial"
       whileInView="animate"
     >
