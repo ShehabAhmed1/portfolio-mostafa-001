@@ -16,7 +16,6 @@ import S12 from "../data/socialMedia/S12.jpg";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  console.log(currentIndex);
 
   // useEffect(() => {
   //   const interval = setInterval(goToNext, 3000); // auto-slide every 3 sec
