@@ -1,8 +1,8 @@
 import { Banner } from "./Home";
 import { ArrowScrolling } from "./Home";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 /**imgs */
-import mostafaAbout from "../data/mostafa-about.png";
+import mostafaAbout from "../data/mostafa-about.webp";
 
 //icons
 import { GoDash } from "react-icons/go";

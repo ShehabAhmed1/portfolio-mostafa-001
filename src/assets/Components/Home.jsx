@@ -1,11 +1,8 @@
 //libararies
-import { div } from "framer-motion/client";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 // imges
-import mostafaBanner from "../data/mostafa.jpg";
-import mostafaBanner2 from "../data/mostafa-modified.png";
-import mostafaNbg from "../data/mostafa-nbg.png";
+import mostafaBanner2 from "../data/mostafa-modified.webp";
 
 //icons
 import { FaArrowCircleDown } from "react-icons/fa";

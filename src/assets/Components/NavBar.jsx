@@ -1,5 +1,5 @@
 // libararies
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { useState } from "react";
 
 /*** icons ***/
@@ -32,6 +32,10 @@ const links = [
   {
     name: "About",
     path: "#About",
+  },
+  {
+    name: "Result",
+    path: "#Result",
   },
   {
     name: "Gallary",
@@ -79,9 +83,9 @@ function Logo() {
 function UlLaptop() {
   return (
     <ul className="laptop">
-      {links.map((l, index) => {
+      {links.map((l) => {
         return (
-          <li key={index}>
+          <li key={l.name}>
             <a href={l.path}> {l.name}</a>
           </li>
         );
@@ -95,7 +99,7 @@ function ULmobile({ active }) {
   return (
     <motion.ul
       className="mobile"
-      variants={fromTop(0.2, -200, 80)}
+      variants={fromTop(0.2, -250, 80)}
       initial="initial"
       animate={`${active ? "animate" : ""}`}
     >
