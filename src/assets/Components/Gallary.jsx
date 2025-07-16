@@ -101,10 +101,10 @@ import adv2Image from "../data/Adver_/Adv2/brand.png";
 import adv2Video from "../data/Adver_/Adv2/A1.mp4";
 
 // workPosters
-import poster1Image from "../data/posters/poster1/brand.png";
-import poster1Poster from "../data/posters/poster1/p1.png";
-import poster2Image from "../data/posters/poster2/brand.png";
-import poster2Poster from "../data/posters/poster2/p1.png";
+import poster1Image from "../data/Posters/poster1/brand.png";
+import poster1Poster from "../data/Posters/poster1/p1.png";
+import poster2Image from "../data/Posters/poster2/brand.png";
+import poster2Poster from "../data/Posters/poster2/p1.png";
 
 // الـ Arrays المنظمة
 const workUgc = [
