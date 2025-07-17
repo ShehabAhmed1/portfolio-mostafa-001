@@ -369,7 +369,6 @@ function ProjectUnit({ vedio, brand, brandname }) {
           src={vedio}
           controls
           playsInline={false}
-          preload="none"
           autoPlay={false}
           muted={false}
         />
