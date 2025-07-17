@@ -32,6 +32,14 @@ function Contact() {
           <motion.h1 variants={scaler} initial="initial" animate="animate">
             lets work together...
           </motion.h1>
+
+          <a
+            href="https://shehabahmed1.github.io/My-portfolio/"
+            target="_blank"
+            className="contact-developer"
+          >
+            <button>Contact Developer</button>
+          </a>
         </div>
       </div>
     </section>

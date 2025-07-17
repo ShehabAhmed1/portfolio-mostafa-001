@@ -6,6 +6,7 @@ import { About } from "./assets/Components/About";
 import { Gallary } from "./assets/Components/Gallary";
 import { Contact } from "./assets/Components/Contact";
 import { Carousel } from "./assets/Components/Carousel ";
+
 function App() {
   return (
     <main className="Portfolio">

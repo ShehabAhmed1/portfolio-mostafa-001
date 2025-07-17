@@ -45,6 +45,10 @@ const links = [
     name: "Contact",
     path: "#Contact",
   },
+  {
+    name: "ContactDeveloper",
+    path: "https://shehabahmed1.github.io/My-portfolio/",
+  },
 ];
 
 function NavBar() {
@@ -99,7 +103,7 @@ function ULmobile({ active }) {
   return (
     <motion.ul
       className="mobile"
-      variants={fromTop(0.2, -250, 80)}
+      variants={fromTop(0.2, -350, 80)}
       initial="initial"
       animate={`${active ? "animate" : ""}`}
     >

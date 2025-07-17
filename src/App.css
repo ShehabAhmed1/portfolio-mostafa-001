@@ -439,6 +439,34 @@ nav .nav-content .mobile li:hover {
   text-transform: uppercase;
 }
 
+.contact-developer {
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+.contact-developer button {
+  background-color: #4c9f70; /* Accent green */
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-developer button:hover {
+  background-color: #3a815a; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift */
+}
+
+.contact-developer button:active {
+  transform: translateY(0); /* Reset on click */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
 /***end Contact Component ****/
 
 /****** start responsive ********/
