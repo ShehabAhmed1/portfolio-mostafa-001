@@ -365,7 +365,14 @@ function ProjectUnit({ vedio, brand, brandname }) {
       whileInView="animate"
     >
       <div className="video">
-        <video src={vedio} controls muted preload="auto" />
+        <video
+          src={vedio}
+          controls
+          playsInline={false}
+          preload="none"
+          autoPlay={false}
+          muted={false}
+        />
       </div>
       <div className="related-info">
         <img src={brand} alt="" />
