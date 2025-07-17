@@ -12,7 +12,6 @@ import S8 from "../data/socialMedia/S8.jpg";
 import S9 from "../data/socialMedia/S9.jpg";
 import S10 from "../data/socialMedia/S10.jpg";
 import S11 from "../data/socialMedia/S11.jpg";
-import S12 from "../data/socialMedia/S12.jpg";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -22,7 +21,7 @@ const Carousel = () => {
   //   return () => clearInterval(interval);
   // }, [currentIndex]);
 
-  const images = [S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12];
+  const images = [S9, S6, S7, S3, S1, S4, S11, S2, S5, S8, S10];
 
   const goToPrevious = () => {
     setCurrentIndex((prev) => (prev === 0 ? 0 : prev - 1));
