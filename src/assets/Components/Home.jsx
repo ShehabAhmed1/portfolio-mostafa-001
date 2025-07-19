@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 // imges
-import mostafaBanner2 from "../data/mostafa-modified.webp";
+import mostafaBanner2 from "../data/mostafa-modified.jpg";
 
 //icons
 import { FaArrowCircleDown } from "react-icons/fa";

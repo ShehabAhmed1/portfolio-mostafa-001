@@ -2,7 +2,7 @@ import { Banner } from "./Home";
 import { ArrowScrolling } from "./Home";
 import { motion } from "framer-motion";
 /**imgs */
-import mostafaAbout from "../data/mostafa-about.webp";
+import mostafaAbout from "../data/mostafa-about.jpg";
 
 //icons
 import { GoDash } from "react-icons/go";

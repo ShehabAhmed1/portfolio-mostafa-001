@@ -2,43 +2,43 @@ import { motion } from "framer-motion";
 import { fromRight } from "./About";
 
 // workUgc
-import b1Image from "../data/UGC/brand1/b1.webp";
+import b1Image from "../data/UGC/brand1/b1.jpg";
 import b1Video from "../data/UGC/brand1/b1.mp4";
 
-import b2Image from "../data/UGC/brand2/b2.webp";
+import b2Image from "../data/UGC/brand2/b2.jpg";
 import b2Video from "../data/UGC/brand2/b2.mp4";
 
-import b3Image from "../data/UGC/brand3/b3.webp";
+import b3Image from "../data/UGC/brand3/b3.jpg";
 import b3Video1 from "../data/UGC/brand3/b3.1.mp4";
 import b3Video2 from "../data/UGC/brand3/b3.2.mp4";
 import b3Video3 from "../data/UGC/brand3/b3.3.mp4";
 
-import b4Image from "../data/UGC/brand4/b4.webp";
+import b4Image from "../data/UGC/brand4/b4.jpg";
 import b4Video1 from "../data/UGC/brand4/b4.1.mp4";
 import b4Video2 from "../data/UGC/brand4/b4.2.mp4";
 
-import b5Image from "../data/UGC/brand5/b5.webp";
+import b5Image from "../data/UGC/brand5/b5.jpg";
 import b5Video from "../data/UGC/brand5/b5.mp4";
 
-import b6Image from "../data/UGC/brand6/b6.webp";
+import b6Image from "../data/UGC/brand6/b6.jpg";
 import b6Video from "../data/UGC/brand6/b6.mp4";
 
-import b7Image from "../data/UGC/brand7/b7.webp";
+import b7Image from "../data/UGC/brand7/b7.jpg";
 import b7Video from "../data/UGC/brand7/b7.mp4";
 
-import b8Image from "../data/UGC/brand8/b8.webp";
+import b8Image from "../data/UGC/brand8/b8.jpg";
 import b8Video1 from "../data/UGC/brand8/b8.1.mp4";
 import b8Video2 from "../data/UGC/brand8/b8.2.mp4";
 import b8Video3 from "../data/UGC/brand8/b8.3.mp4";
 import b8Video4 from "../data/UGC/brand8/b8.4.mp4";
 import b8Video5 from "../data/UGC/brand8/b8.5.mp4";
 
-import b9Image from "../data/UGC/brand9/b9.webp";
+import b9Image from "../data/UGC/brand9/b9.jpg";
 import b9Video1 from "../data/UGC/brand9/b9.1.mp4";
 import b9Video2 from "../data/UGC/brand9/b9.2.mp4";
 import b9Video3 from "../data/UGC/brand9/b9.3.mp4";
 
-import b10Image from "../data/UGC/brand10/b10.webp";
+import b10Image from "../data/UGC/brand10/b10.jpg";
 import b10Video1 from "../data/UGC/brand10/b10.1.mp4";
 import b10Video2 from "../data/UGC/brand10/b10.2.mp4";
 import b10Video3 from "../data/UGC/brand10/b10.3.mp4";
@@ -51,47 +51,47 @@ import b10Video9 from "../data/UGC/brand10/b10.9.mp4";
 import b10Video10 from "../data/UGC/brand10/b10.10.mp4";
 import b10Video11 from "../data/UGC/brand10/b10.11.mp4";
 
-import b11Image from "../data/UGC/brand11/b11.webp";
+import b11Image from "../data/UGC/brand11/b11.jpg";
 import b11Video1 from "../data/UGC/brand11/b11.1.mp4";
 
-import b12Image from "../data/UGC/brand12/b12.webp";
+import b12Image from "../data/UGC/brand12/b12.jpg";
 import b12Video1 from "../data/UGC/brand12/b12.1.mp4";
 
-import b13Image from "../data/UGC/brand13/b13.webp";
+import b13Image from "../data/UGC/brand13/b13.jpg";
 import b13Video1 from "../data/UGC/brand13/b13.1.mp4";
 import b13Video2 from "../data/UGC/brand13/b13.2.mp4";
 
-import b14Image from "../data/UGC/brand14/b14.webp";
+import b14Image from "../data/UGC/brand14/b14.jpg";
 import b14Video1 from "../data/UGC/brand14/b14.1.mp4";
 import b14Video2 from "../data/UGC/brand14/b14.2.mp4";
 
-import b15Image from "../data/UGC/brand15/b15.webp";
+import b15Image from "../data/UGC/brand15/b15.jpg";
 import b15Video1 from "../data/UGC/brand15/b15.1.mp4";
 
-import b16Image from "../data/UGC/brand16/b16.webp";
+import b16Image from "../data/UGC/brand16/b16.jpg";
 import b16Video1 from "../data/UGC/brand16/b16.1.mp4";
 import b16Video2 from "../data/UGC/brand16/b16.2.mp4";
 
-import b17Image from "../data/UGC/brand17/b17.webp";
+import b17Image from "../data/UGC/brand17/b17.jpg";
 import b17Video1 from "../data/UGC/brand17/b17.1.mp4";
 
-import b18Image from "../data/UGC/brand18/b18.webp";
+import b18Image from "../data/UGC/brand18/b18.jpg";
 import b18Video1 from "../data/UGC/brand18/b18.1.mp4";
 
-import b19Image from "../data/UGC/brand19/b19.webp";
+import b19Image from "../data/UGC/brand19/b19.jpg";
 import b19Video1 from "../data/UGC/brand19/b19.1.mp4";
 
-import b20Image from "../data/UGC/brand20/b20.webp";
+import b20Image from "../data/UGC/brand20/b20.jpg";
 import b20Video1 from "../data/UGC/brand20/b20.1.mp4";
 
-import b21Image from "../data/UGC/brand21/b21.webp";
+import b21Image from "../data/UGC/brand21/b21.jpg";
 import b21Video1 from "../data/UGC/brand21/b21.1.mp4";
 import b21Video2 from "../data/UGC/brand21/b21.2.mp4";
 
-import b22Image from "../data/UGC/brand22/b22.webp";
+import b22Image from "../data/UGC/brand22/b22.jpg";
 import b22Video1 from "../data/UGC/brand22/b22.1.mp4";
 
-import b23Image from "../data/UGC/brand23/b23.webp";
+import b23Image from "../data/UGC/brand23/b23.jpg";
 import b23Video1 from "../data/UGC/brand23/b23.1.mp4";
 
 // workAdv
@@ -371,6 +371,7 @@ function ProjectUnit({ vedio, brand, brandname }) {
           playsInline={false}
           autoPlay={false}
           muted={false}
+          preload="auto"
         />
       </div>
       <div className="related-info">
